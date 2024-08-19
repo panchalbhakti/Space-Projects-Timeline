@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Projects Timeline</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Space Projects Timeline</h1>
+    <p>Discover the key missions in space exploration</p>
+  </header>
+
+  <main>
+    <div class="filters">
+      <button data-year="2024" class="filter-btn">2024</button>
+      <button data-year="2023" class="filter-btn">2023</button>
+      <button data-year="2022" class="filter-btn">2022</button>
+      <button data-year="2021" class="filter-btn">2021</button>
+      <button data-year="2020" class="filter-btn">2020</button>
+      <button data-year="2019" class="filter-btn">2019</button>
+      <button data-year="all" class="filter-btn active">All</button>
+    </div>
+
+    <section class="timeline" id="timeline">
+      <!-- Mission 2024 -->
+      <div class="mission" data-year="2024">
+        <div class="mission-date">2024</div>
+        <div class="mission-details">
+          <h2>Exploration Mission Alpha</h2>
+          <p>An ambitious lunar exploration mission planned for 2024.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>This mission aims to establish a sustainable human presence on the Moon. It will involve landing astronauts on the lunar surface and developing infrastructure for future missions.</p>
+          </div>
+        </div>
+    </div>
+        
+        <!-- Mission 2023 -->
+        <div class="mission" data-year="2023">
+            <div class="mission-date">2023</div>
+            <div class="mission-details">
+                <h2>Mars Rover Exploration</h2>
+                <p>A significant Mars Rover mission scheduled for 2023.</p>
+                <button class="more-info-btn">More Info</button>
+                <div class="mission-more-info">
+                    <p>This mission will send a new rover to Mars to collect samples and study the planet's surface for signs of past life.</p>
+                </div>
+            </div>
+        </div>
+
+      <!-- Mission 2022 -->
+      <div class="mission" data-year="2022">
+        <div class="mission-date">2022</div>
+        <div class="mission-details">
+          <h2>Deep Space Telescope Launch</h2>
+          <p>The launch of the most advanced space telescope occurred in 2022.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>The telescope will observe distant galaxies and search for habitable exoplanets using cutting-edge infrared technology.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission 2021 -->
+      <div class="mission" data-year="2021">
+        <div class="mission-date">2021</div>
+        <div class="mission-details">
+          <h2>Asteroid Mining Exploration</h2>
+          <p>Asteroid mining technology was tested in 2021.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>This mission tested methods for mining asteroids to extract valuable resources such as rare metals.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission 2020 -->
+      <div class="mission" data-year="2020">
+        <div class="mission-date">2020</div>
+        <div class="mission-details">
+          <h2>Moon Orbiter Mission</h2>
+          <p>A new lunar orbiter was launched in 2020 to map the Moon's surface in greater detail.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>This mission enhanced our understanding of the Moon's topography and geology, preparing for future landings.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission 2019 -->
+      <div class="mission" data-year="2019">
+        <div class="mission-date">2019</div>
+        <div class="mission-details">
+          <h2>Space Station Expansion</h2>
+          <p>The International Space Station received new modules and research facilities in 2019.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>The expansion included new laboratories, living quarters, and experiments focused on long-duration space travel.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mangalyaan (Mars Orbiter Mission) -->
+      <div class="mission" data-year="2013">
+        <div class="mission-date">2013</div>
+        <div class="mission-details">
+          <h2>Mangalyaan (Mars Orbiter Mission)</h2>
+          <p>India's first interplanetary mission to Mars, providing valuable data.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>Launched on November 5, 2013, Mangalyaan entered Martian orbit on September 24, 2014. It continues to provide valuable data about Mars' atmosphere and surface, marking a significant achievement for India's space program.</p>
+          </div>
+        </div>
+      </div>
+
+       <!-- Chandrayaan-1 -->
+       <div class="mission" data-year="2008">
+        <div class="mission-date">2008</div>
+        <div class="mission-details">
+          <h2>Chandrayaan-1</h2>
+          <p>India's first lunar probe, which discovered water on the Moon.</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>Launched on October 22, 2008, Chandrayaan-1 was a significant achievement for ISRO. Although communication was lost in August 2009, the mission successfully detected water molecules on the lunar surface, marking a major discovery in lunar science.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Chandrayaan-2 -->
+      <div class="mission" data-year="2019">
+        <div class="mission-date">2019</div>
+        <div class="mission-details">
+          <h2>Chandrayaan-2</h2>
+          <p>Ambitious lunar mission with an orbiter, lander (Vikram), and rover (Pragyan).</p>
+          <button class="more-info-btn">More Info</button>
+          <div class="mission-more-info">
+            <p>Launched on July 22, 2019, Chandrayaan-2's orbiter is still operational and sending data from lunar orbit. The lander Vikram crash-landed, and the rover Pragyan did not deploy. Despite this, the mission has been valuable for lunar exploration.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+        <!-- ISRO Projects Section -->
+        <section class="projects" id="projects">
+            <h2>ISRO's Projects and Missions</h2>
+            
+            <div class="project-category">
+              <h3>1. Satellite Missions</h3>
+              <ul>
+                <li><strong>GSAT Series:</strong> Geostationary satellites for communication (e.g., GSAT-19, GSAT-30).</li>
+                <li><strong>INSAT Series:</strong> Indian National Satellite System for meteorology, telecommunication, and broadcasting.</li>
+                <li><strong>IRS Series:</strong> Indian Remote Sensing satellites for earth observation.</li>
+              </ul>
+            </div>
+      
+            <div class="project-category">
+              <h3>2. Exploration Missions</h3>
+              <ul>
+                <li><strong>Chandrayaan-1:</strong> India’s first lunar probe, which discovered water on the Moon.</li>
+                <li><strong>Chandrayaan-2:</strong> An ambitious lunar exploration mission that included an orbiter, a lander (Vikram), and a rover (Pragyan).</li>
+                <li><strong>Mangalyaan (Mars Orbiter Mission):</strong> India’s first interplanetary mission to Mars, which has provided significant data on Martian atmosphere and surface.</li>
+              </ul>
+            </div>
+      
+            <div class="project-category">
+              <h3>3. Launch Vehicles</h3>
+              <ul>
+                <li><strong>PSLV (Polar Satellite Launch Vehicle):</strong> Known for its versatility and success in launching satellites into various orbits.</li>
+                <li><strong>GSLV (Geosynchronous Satellite Launch Vehicle):</strong> Used for launching heavier satellites into geostationary orbits.</li>
+                <li><strong>GSLV Mk III:</strong> The heaviest launch vehicle, capable of carrying heavier payloads into geosynchronous orbits.</li>
+              </ul>
+            </div>
+      
+            <div class="project-category">
+              <h3>4. Space Research and Development</h3>
+              <ul>
+                <li><strong>Astrosat:</strong> India’s first dedicated multi-wavelength space observatory.</li>
+                <li><strong>NavIC:</strong> The Navigation with Indian Constellation, India’s own satellite navigation system.</li>
+              </ul>
+            </div>
+      
+            <div class="project-category">
+              <h3>5. Recent Projects</h3>
+              <ul>
+                <li><strong>Gaganyaan:</strong> India’s human spaceflight program aiming to send astronauts to space.</li>
+                <li><strong>Aditya-L1:</strong> A mission to study the Sun.</li>
+                <li><strong>Xposat:</strong> A space-based observatory to study the high-energy X-ray sources.</li>
+              </ul>
+            </div>
+      
+            <div class="project-summary">
+              <h3>Historical Launch Count</h3>
+              <p>As of early 2024, ISRO has conducted over 300 satellite launches and numerous missions across various space exploration areas.</p>
+            </div>
+          </section>
+      
+
+  </main>
+
+  <footer>
+    <p>&copy;Space Projects Timeline</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
