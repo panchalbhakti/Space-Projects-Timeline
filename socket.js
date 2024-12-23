@@ -4,7 +4,8 @@ let socket;
 
 document.getElementById('connect').onclick = function() {
     // Replace 'example.com' with your actual domain or server IP
-    socket = new WebSocket('ws://example.com:5000'); // WebSocket connection
+    // socket = new WebSocket('ws://example.com:5000'); // WebSocket connection
+    socket = new WebSocket('ws://Space-Projects-Timeline.com:5000');
 
     socket.onopen = function() {
         console.log('Connected to the server');
