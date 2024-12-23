@@ -5,7 +5,7 @@ let socket;
 document.getElementById('connect').onclick = function() {
     console.log('Button clicked, attempting to connect...');
     // Open WebSocket connection to the server running on localhost:5000
-    socket = new WebSocket('ws://localhost:5000'); // Connect to the server at localhost:5000
+    socket = new WebSocket('wss://localhost:5000'); // Connect to the server at localhost:5000
 
     // Handle when the WebSocket is open (connection successful)
     socket.onopen = function() {
